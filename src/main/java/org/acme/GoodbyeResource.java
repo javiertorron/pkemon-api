@@ -12,6 +12,7 @@ public class GoodbyeResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
+        String peter = "Peter";
         return "Goodbye from RESTEasy Reactive";
     }
 }
